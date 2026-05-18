@@ -158,7 +158,7 @@ Dxsure-CRM/
 
 ### Application URLs
 - Frontend: `http://localhost:3000`
-- Backend: `http://localhost:5000`
+- Backend: `http://${process.env.REACT_APP_API_URL}`
 
 ## Contributing
 Contributions are welcome. If you would like to improve Dxsure-CRM, please follow these steps:
