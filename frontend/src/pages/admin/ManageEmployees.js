@@ -84,14 +84,7 @@ export default function ManageEmployees() {
     }
   };
 
-  // Format date
-  const formatDate = (date) => {
-    return new Date(date).toLocaleDateString('en-IN', {
-      day: '2-digit',
-      month: 'short',
-      year: 'numeric'
-    });
-  };
+ 
 
   // Format salary
   const formatSalary = (salary) => {
