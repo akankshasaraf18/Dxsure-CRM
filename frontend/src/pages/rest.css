@@ -1,0 +1,26 @@
+body {
+    background-color: #fff8dc;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: darkred;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+h3 {
+    color: navy;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: lightgray;
+}

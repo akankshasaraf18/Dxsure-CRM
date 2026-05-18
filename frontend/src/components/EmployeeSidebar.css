@@ -1,0 +1,56 @@
+.employee-sidebar {
+  width: 220px;
+  min-height: 100vh;
+  background: #0f172a;
+  color: #ffffff;
+  padding: 20px 14px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.employee-sidebar-title {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.employee-sidebar-link {
+  display: block;
+  color: #cbd5e1;
+  text-decoration: none;
+  padding: 10px 12px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.employee-sidebar-link:hover {
+  background: #1e293b;
+  color: #ffffff;
+}
+
+.employee-sidebar-link.active {
+  background: #1d4ed8;
+  color: #ffffff;
+}
+
+.employee-logout-btn {
+  margin-top: auto;
+  border: none;
+  background: #dc2626;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.employee-logout-btn:hover {
+  background: #b91c1c;
+}
+
+@media (max-width: 900px) {
+  .employee-sidebar {
+    width: 100%;
+    min-height: auto;
+  }
+}
